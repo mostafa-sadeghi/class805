@@ -83,10 +83,25 @@
 # print(persons[1:4])
 
 
-numbers = [1, 2, 3, 4]
-persons = ['a', 'b']
+# numbers = [1, 2, 3, 4]
+# persons = ['a', 'b']
 
-my_list = [numbers, persons]
+# my_list = [numbers, persons]
 
-print(my_list)
+# print(my_list[0][0])
+# print(my_list[0][1])
+# print(my_list[1][0])
+# print(my_list[1][1])
 # // todo how to access and print just 'a' from my_list
+
+
+# name = ["ali", "reza", "nima"] + ["matin", "mina"]
+# name = ["ali", "reza", "nima"] - ["ali"] > Type Error
+
+# print(name)
+
+
+name = ["ali", "reza", "nima"]
+name.append("hosein")
+name.append(["hosein", "javad"])
+print(name)

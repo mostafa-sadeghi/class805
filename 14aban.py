@@ -36,11 +36,12 @@ numbers = [1, 2, 3, 4, 5, 6, 7]
 # print(numbers[2:5])
 
 
-favorite_sports = {
-    'radman': 'footbal',
-    'radin': 'baseball',
-    'kian': 'basketball'
-}
+# favorite_sports = {
+#     'radman': 'footbal',
+#     'radin': 'baseball',
+#     'kian': 'basketball'
+# }
 
-print(favorite_sports['radin'])
-print(favorite_sports['kian'])
+# print(favorite_sports['radin'])
+# print(favorite_sports['kian'])
+# print(type(favorite_sports))

@@ -43,47 +43,38 @@
 
 # section 2:
 
-# import turtle
-# import time
-
-# screen = turtle.Screen()
-
-# t = turtle.Pen()
-# t.speed(0)
-# t.speed("slow")
-# t.speed(3)
-
-# t.color('#000000')
-
-# t.forward(100)
-
-# turtle_stamp = t.stamp()
-
-# t.backward(100)
-# time.sleep(2)
-# t.clearstamp(turtle_stamp)
-
-# time.sleep(1)
-# t.undo(s)
-
-
-# screen.exitonclick()
+import turtle
+import time
+screen = turtle.Screen()
+t = turtle.Pen()
+t.speed(0)
+t.speed("slow")
+t.speed(3)
+t.color('#000000')
+t.forward(100)
+turtle_stamp = t.stamp()
+t.backward(100)
+time.sleep(2)
+t.clearstamp(turtle_stamp)
+time.sleep(1)
+t.undo()
+screen.exitonclick()
 
 
 # section 3
 
-import turtle
+# import turtle
 
-screen = turtle.Screen()
+# screen = turtle.Screen()
 
-t = turtle.Pen()
+# t = turtle.Pen()
 
 
-# print(t.towards(100, 100))
-heading = t.towards(100, 100)
+# # print(t.towards(100, 100))
+# heading = t.towards(100, 100)
 
-t.setheading(heading)
+# t.setheading(heading)
 
-t.forward(200)
+# t.forward(200)
 
-screen.exitonclick()
+# screen.exitonclick()

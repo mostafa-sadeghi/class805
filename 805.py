@@ -105,3 +105,5 @@ name = ["ali", "reza", "nima"]
 name.append("hosein")
 name.append(["hosein", "javad"])
 print(name)
+
+

@@ -47,11 +47,11 @@ print("even numbers are:", even_numbers)
 
 # exercise 3 with while loop
 
-x = int(input('enter your number '))
+# x = int(input('enter your number '))
 
-i = 0
+# i = 0
 
-while i < 1000:
-    x = x + 1
-    i = i + 1
-print(x)
+# while i < 1000:
+#     x = x + 1
+#     i = i + 1
+# print(x)

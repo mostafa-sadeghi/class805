@@ -37,8 +37,10 @@ print(Fore.CYAN + "hello every body")
 مثلا ok
 '''
 
-number = int(input('enter a number> '))
-if number % 2 == 0:
-    print(Fore.GREEN + f'{number} is even')
-else:
-    print(Fore.RED + f'{number} is odd')
+# number = int(input('enter a number> '))
+# if number % 2 == 0:
+#     print(Fore.GREEN + f'{number} is even')
+# else:
+#     print(Fore.RED + f'{number} is odd')
+
+

@@ -35,12 +35,5 @@ Nikan's average in 3 lessons is : 20
 # تا 60 لیتر  1500
 # آزاد 3000
 
-n = int(input('> '))
-m = n * 2000/100
 
-if m <= 60:
-    print(m * 1500)
 
-else:
-    x = m - 60
-    print(60 * 1500 + x * 3000)

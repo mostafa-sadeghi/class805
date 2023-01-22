@@ -19,6 +19,7 @@ for j in range(12):
 
 screen.exitonclick()
 
+
 # تمرین : تغییر رنگ هر یک از مربع ها
 #
 

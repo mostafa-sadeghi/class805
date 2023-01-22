@@ -6,3 +6,14 @@
 numbers = input('enter numbers seprated with, ')
 list_numbers = numbers.split(',')
 print(list_numbers)
+
+
+n = int(input('> '))
+m = n * 2000/100
+
+if m <= 60:
+    print(m * 1500)
+
+else:
+    x = m - 60
+    print(60 * 1500 + x * 3000)

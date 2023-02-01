@@ -21,4 +21,14 @@
 #     else:
 #         print(('* '*(7-i)))
 
-# while loop
+#Exercise 1:  while loop
+# Exercise 2 :
+'''
+      *
+    * *
+  * * *
+* * * *
+  * * *
+    * *
+      *
+'''

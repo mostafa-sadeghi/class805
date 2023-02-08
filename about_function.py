@@ -11,12 +11,12 @@
 # my_function(cls_=class_, family=family, n=name)
 
 
-def add(number1, number2, number3):
-    return number1 + number2 + number3
+# def add(number1, number2, number3):
+#     return number1 + number2 + number3
 
 
-result = add(1, 2, 3)
-print(result)
+# result = add(1, 2, 3)
+# print(result)
 
 # exercise1
 # create three function:
@@ -27,3 +27,11 @@ print(result)
 # exercise2 : تابعی بنویسید که نام، نام خانوادگی و سن را بعنوان پارامتر داشته باشدو
 #  اگر سن داده شده بزرگتر از 18 باشد پیغام زیر را برگرداند
 # your are adult.
+
+
+# def greet(name, family):
+#     return f'hello {name} {family}'
+
+
+# for i in range(5):
+#     print(greet("mostafa", "sadeghi"))

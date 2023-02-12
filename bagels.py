@@ -1,7 +1,13 @@
 import random
 
+
 NUM_DIGITS = 3
 MAX_GUESSES = 10
+
+
+def generate_secret_number():
+    secret_number = random.randrange(100, 1000)
+    return secret_number
 
 
 print(f'''Welcome to our bagels game.
@@ -12,4 +18,5 @@ Fermi                       On digit is correct and in the rigth postion.
 Bagels                      Nothing is True.
 ''')
 
-# exercise 1 : تابعی بنویسید که عدد سه رقمی تصادفی با رقم های غیر تکراری تولیدکند
+sec_num = generate_secret_number()
+print(sec_num)

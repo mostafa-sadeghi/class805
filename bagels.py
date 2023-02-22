@@ -22,7 +22,7 @@ def getHint(guess, secNumber):
         if guess[i] == secNumber[i]:
             hints.append('Fermi')
         elif guess[i] in secNumber:
-            hint.append('Pico')
+            hints.append('Pico')
     if len(hints) == 0:
         return "bagels"
     return hints
@@ -38,7 +38,7 @@ Bagels                      Nothing is True.
 while True:
     sec_num = generate_secret_number()
     print("secret number generated!!!!")
-
+    print(sec_num)
     numGuesses = 1
     while numGuesses <= MAX_GUESSES:
         guess = ''

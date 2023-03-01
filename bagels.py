@@ -38,7 +38,7 @@ Bagels                      Nothing is True.
 while True:
     sec_num = generate_secret_number()
     print("secret number generated!!!!")
-    print(sec_num)
+    # print(sec_num)
     numGuesses = 1
     while numGuesses <= MAX_GUESSES:
         guess = ''

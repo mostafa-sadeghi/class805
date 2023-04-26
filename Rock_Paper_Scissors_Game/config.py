@@ -5,3 +5,8 @@ RULES = {
     ('p', 's'): 's',
     ('r', 's'): 'r'
 }
+
+scoreboard = {
+    'user': 0,
+    'system': 0
+}

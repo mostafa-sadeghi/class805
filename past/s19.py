@@ -53,37 +53,3 @@
 
 
 # root.mainloop()
-
-
-import random
-from config import GAME_CHOICES,RULES
-
-
-def get_user_choice():
-    user_input = input('Enter you choice please(r, p, s): ')
-    if user_input not in GAME_CHOICES:
-        print("Ooops!!, wrong choice, try again please ...")
-        return get_user_choice()
-    return user_input
-
-
-def get_system_choice():
-    return random.choice(GAME_CHOICES)
-
-
-def find_winner(user,system):
-    match = {user, system}
-    if len(match) == 1:
-        return None
-    return RULES[]
-
-
-result = {
-    'user': 0,
-    'system': 0
-}
-
-while result["user"] < 3 and result["system"] < 3:
-    user_choice = get_user_choice()
-    system_choice = get_system_choice()
-    winner = find_winner(user_choice, system_choice)

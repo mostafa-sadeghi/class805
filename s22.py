@@ -10,7 +10,7 @@ def calculate():
     meters.set(res)
 
 
-root = ttk.Window(themename="superhero")
+root = ttk.Window(themename="darkly")
 root.title("Feet to Meters")
 root.rowconfigure(0, weight=1)
 root.columnconfigure(0, weight=1)
@@ -38,7 +38,7 @@ ttk.Label(main_frame, textvariable=meters, font=(
 ttk.Button(main_frame, text="Calculate",
            cursor="hand2", command=calculate,
            padding=(50, 20),
-           bootstyle="success outline").grid(
+           bootstyle="danger outline").grid(
     column=2, row=2, sticky="NSWE")
 ttk.Label(main_frame, text="feet", font=(
     "Arial", 18), padding=(15, 2),
